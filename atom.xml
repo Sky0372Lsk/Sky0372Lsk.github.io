@@ -4,7 +4,7 @@
   <title><![CDATA[Shangkai Lee's Blog]]></title>
   <link href="http://sky0372lsk.github.io/atom.xml" rel="self"/>
   <link href="http://sky0372lsk.github.io/"/>
-  <updated>2016-01-12T18:58:59+08:00</updated>
+  <updated>2016-01-12T19:05:37+08:00</updated>
   <id>http://sky0372lsk.github.io/</id>
   <author>
     <name><![CDATA[李尚锴]]></name>
@@ -22,13 +22,15 @@
 
 <p>2016年1月12日 5:58:20</p>
 
-<h2>一</h2>
+<h1>#</h1>
+
+<h1>前言</h1>
 
 <p>自己尝试搭建博客有两三天了，因为公司的事情，慢了一些，也走了很多弯路，记录下来，也算一个好的开篇。</p>
 
 <p>效果请移步：<a href="http://sky0372lsk.github.io/">http://sky0372lsk.github.io/</a></p>
 
-<h2>二</h2>
+<h1>#</h1>
 
 <h1>一些弯路</h1>
 
@@ -38,11 +40,13 @@
 
 <p>二：在github上内容都改变了，可是网页显示就是不变，有人说需要等一会，可是等了，也不行</p>
 
+<h1>#</h1>
+
 <h1>转机</h1>
 
 <p>忽然想到看过唐巧大神的博客迁移之类的文章，google之后，用了半天时间搭建起来，是基于Octopress的Github Pages。目前还是比较生疏，但是也是有所收获。</p>
 
-<p>以下是唐巧的博客链接（原谅我还不会发链接）：</p>
+<p>以下是唐巧的博客链接：</p>
 
 <p><a href="http://blog.devtang.com/blog/2012/02/10/setup-blog-based-on-github/">http://blog.devtang.com/blog/2012/02/10/setup-blog-based-on-github/</a></p>
 
@@ -67,6 +71,8 @@
 <p>请follow me <a href="https://github.com/Sky0372Lsk">https://github.com/Sky0372Lsk</a></p>
 
 <h2>三</h2>
+
+<h1>小总结</h1>
 
 <p>这里想说两点：</p>
 
