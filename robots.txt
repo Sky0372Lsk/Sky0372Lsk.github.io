@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://sky0372lsk.github.io/sitemap.xml 
