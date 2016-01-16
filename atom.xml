@@ -1,90 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
 
-<!DOCTYPE HTML>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title>Shangkai Lee's Blog</title>
-	<meta name="author" content="李尚锴">
-
-	
-	<meta name="description" content="BY 刘未鹏 – DECEMBER 20, 2009 POSTED IN: 学习方法 如果你有一台计算机，你装了一个系统之后就整天把它搁置在那里，你觉得这台计算机被实际使用了吗？没有。因为CPU整天运行的就是空闲进程。运行空闲进程也是一天，运行大数据量计算的程序也是一天，对于CPU来说同样的一天 &hellip;">
-	
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-	<link href="/atom.xml" rel="alternate" title="Shangkai Lee's Blog" type="application/atom+xml">
-	<link rel="canonical" href="">
-	<link href="/favicon.png" rel="shortcut icon">
-	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-	<script async="true" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-	
-</head>
-
-
-<body>
-	<header id="header" class="inner"><h1><a href="/">Shangkai Lee's Blog</a></h1>
-<nav id="main-nav"><ul class="main">
-	<li><a href="/">Blog</a></li>
-	<li><a href="/blog/archives">Archives</a></li>
-</ul>
-</nav>
-<nav id="mobile-nav">
-	<div class="alignleft menu">
-		<a class="button">Menu</a>
-		<div class="container"><ul class="main">
-	<li><a href="/">Blog</a></li>
-	<li><a href="/blog/archives">Archives</a></li>
-</ul>
-</div>
-	</div>
-	<div class="alignright search">
-		<a class="button"></a>
-		<div class="container">
-			<form action="https://www.google.com/search" method="get">
-				<input type="text" name="q" results="0">
-				<input type="hidden" name="q" value="site:sky0372lsk.github.io">
-			</form>
-		</div>
-	</div>
-</nav>
-<nav id="sub-nav" class="alignright">
-	<div class="social">
-		
-		
-		
-		
+  <title><![CDATA[Shangkai Lee's Blog]]></title>
+  <link href="http://sky0372lsk.github.io/atom.xml" rel="self"/>
+  <link href="http://sky0372lsk.github.io/"/>
+  <updated>2016-01-12T21:26:37+08:00</updated>
+  <id>http://sky0372lsk.github.io/</id>
+  <author>
+    <name><![CDATA[李尚锴]]></name>
     
-		
-		
-		
-		
-		
-		<a class="rss" href="/atom.xml" title="RSS">RSS</a>
-		
-    
-	</div>
-	<form class="search" action="https://www.google.com/search" method="get">
-		<input class="alignright" type="text" name="q" results="0">
-		<input type="hidden" name="q" value="site:sky0372lsk.github.io">
-	</form>
-</nav>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
 
-</header>
-	
-		
-	
-	<div id="content" class="inner">
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2016/01/12/an-shi-jian/">
-		
-			暗时间</a>
-	</h2>
-	<div class="entry-content">
-		<p>BY 刘未鹏 – DECEMBER 20, 2009</p>
+  
+  <entry>
+    <title type="html"><![CDATA[暗时间]]></title>
+    <link href="http://sky0372lsk.github.io/blog/2016/01/12/an-shi-jian/"/>
+    <updated>2016-01-12T21:14:50+08:00</updated>
+    <id>http://sky0372lsk.github.io/blog/2016/01/12/an-shi-jian</id>
+    <content type="html"><![CDATA[<p>BY 刘未鹏 – DECEMBER 20, 2009</p>
 
 <p>POSTED IN: 学习方法</p>
 
@@ -125,36 +59,15 @@
 <p>因此这里就涉及到最后一个高效的习惯：抗干扰。只有具备超强的抗干扰能力，才能有效地利用起前面提到的种种暗时间。抗干扰能力也是可以练习出来的，上本科那会经常坐车，所以我就常常拿着本大部头在车上看，坐着看或者站着看都可，事实证明在有干扰的环境中看书是非常锻炼专注能力的一个办法:D 另外，经常利用各种碎片时间阅读和思考，对迅速集中注意力和保持注意力都非常有帮助。记得很久以前TopLanguage上大伙曾经有次饶有兴趣地讨论“马桶时间”的利用，包括在卫生间放个小书柜。（估计很多同学心有戚戚焉吧:D）</p>
 
 <p>转载自：<a href="http://mindhacks.cn/2009/12/20/dark-time/">http://mindhacks.cn/2009/12/20/dark-time/</a></p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-Jan 12th, 2016</div>
-	<div class="tags">
-
-</div>
-	
-</div>
-</article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2016/01/12/xue-xi-ru-he-xue-xi/">
-		
-			学习如何学习</a>
-	</h2>
-	<div class="entry-content">
-		<h1>学习如何学习</h1>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[学习如何学习]]></title>
+    <link href="http://sky0372lsk.github.io/blog/2016/01/12/xue-xi-ru-he-xue-xi/"/>
+    <updated>2016-01-12T21:10:49+08:00</updated>
+    <id>http://sky0372lsk.github.io/blog/2016/01/12/xue-xi-ru-he-xue-xi</id>
+    <content type="html"><![CDATA[<h1>学习如何学习</h1>
 
 <p>在「如何学习」这点上，一直觉得自己做的不够好，曾经想学吉他，坚持了两个礼拜就以「手指太短，不适合」终结了，后来想学数学，却终究连翻开书的勇气都没有，工作一忙更是顾不上这些了。所以在 Youtube 上看到 Barbara Oakley 的 Learning How to Learn 时，才发现自己在学习上的各种问题，收获颇多。如果有兴趣的话，建议直接看视频，讲解地很有条理且生动。</p>
 
@@ -234,36 +147,15 @@ Jan 12th, 2016</div>
 
 <p>&ndash;EOF&ndash;
 转载自<a href="http://limboy.me/essay/2015/08/14/learning-how-to-learn.html">http://limboy.me/essay/2015/08/14/learning-how-to-learn.html</a></p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-Jan 12th, 2016</div>
-	<div class="tags">
-
-</div>
-	
-</div>
-</article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2016/01/12/wo-de-di-%5B%3F%5D-ge-bo-ke/">
-		
-			我的第一个博客</a>
-	</h2>
-	<div class="entry-content">
-		<p>记录自己的博客之路</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[我的第一个博客]]></title>
+    <link href="http://sky0372lsk.github.io/blog/2016/01/12/wo-de-di-%5B%3F%5D-ge-bo-ke/"/>
+    <updated>2016-01-12T17:55:56+08:00</updated>
+    <id>http://sky0372lsk.github.io/blog/2016/01/12/wo-de-di-[?]-ge-bo-ke</id>
+    <content type="html"><![CDATA[<p>记录自己的博客之路</p>
 
 <p>2016年1月12日 5:58:20</p>
 
@@ -368,49 +260,7 @@ Jan 12th, 2016</div>
 
 
 <hr />
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-Jan 12th, 2016</div>
-	<div class="tags">
-
-</div>
-	
-</div>
-</article>
-
-<nav id="pagenavi">
-    
-    
-    <div class="center"><a href="/blog/archives">Blog Archives</a></div>
-</nav>
-</div>
-	<footer id="footer" class="inner">Copyright &copy; 2016
-
-    李尚锴
-
-</footer>
-	<script src="/javascripts/slash.js"></script>
-<script src="/javascripts/jquery.fancybox.pack.js"></script>
-<script type="text/javascript">
-(function($){
-	$('.fancybox').fancybox();
-})(jQuery);
-</script> <!-- Delete or comment this line to disable Fancybox -->
-
-
-
-
-
-
-</body>
-</html>
+]]></content>
+  </entry>
+  
+</feed>
