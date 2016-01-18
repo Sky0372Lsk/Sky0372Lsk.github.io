@@ -81,8 +81,6 @@
 
 <h1>前言</h1>
 
-<p><img class="left" src="/images/2.pic.jpg" width="350" height="890"></p>
-
 <p>自己尝试搭建博客有两三天了，因为公司的事情，慢了一些，也走了很多弯路，记录下来，也算一个好的开篇。</p>
 
 <h1>一些弯路</h1>
@@ -149,13 +147,15 @@
 
 <p>Examples</p>
 
-<p><img src="http://placekitten.com/890/280"></p>
+<p>左半拉省略了引号，防止生成图片</p>
 
-<p><img class="left" src="http://placekitten.com/320/250" title="Place Kitten #2" ></p>
+<p>% img <a href="http://placekitten.com/890/280">http://placekitten.com/890/280</a> %}</p>
 
-<p><img class="right" src="http://placekitten.com/300/500" width="150" height="250" title="Place Kitten #3" ></p>
+<p>% img left <a href="http://placekitten.com/320/250">http://placekitten.com/320/250</a> Place Kitten #2 %}</p>
 
-<p><img class="right" src="http://placekitten.com/300/500" width="150" height="250" title="Place Kitten #4" alt="An image of a very cute kitten"></p>
+<p>% img right <a href="http://placekitten.com/300/500">http://placekitten.com/300/500</a> 150 250 Place Kitten #3 %}</p>
+
+<p>% img right <a href="http://placekitten.com/300/500">http://placekitten.com/300/500</a> 150 250 &lsquo;Place Kitten #4&rsquo; &lsquo;An image of a very cute kitten&rsquo; %}</p>
 
 <p>2.自己设置：</p>
 
@@ -257,8 +257,6 @@ For details: <a href="http://www.ruby-lang.org/bugreport.html">http://www.ruby-l
 
 <h1>个人信息</h1>
 
-<p><img class="left" src="/images/3.pic.jpg" width="350" height="890"></p>
-
 <ul>
 <li>李尚锴/男/1992</li>
 <li>本科/平顶山大学</li>
@@ -267,6 +265,9 @@ For details: <a href="http://www.ruby-lang.org/bugreport.html">http://www.ruby-l
 <li>目前就职于：神汽在线</li>
 </ul>
 
+
+<p><img class="left" src="/images/2.pic.jpg" width="350" height="890">
+<img class="right" src="/images/3.pic.jpg" width="350" height="890"></p>
 
 <hr />
 </div>
