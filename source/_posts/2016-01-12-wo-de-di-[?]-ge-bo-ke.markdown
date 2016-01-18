@@ -55,8 +55,6 @@ http://bbs.feng.com/read-htm-tid-6663858.html
 
 #常用命令
 
-前三个最常用
-
 rake new_post["article name"] 生成博文框架，然后修改生成的文件即可
 
 rake generate 生成静态文件
@@ -74,6 +72,41 @@ rake generate   # Generates posts and pages into the public directory
 rake watch        # Watches source/ and sass/ for changes and regenerates
 
 rake preview     # Watches, and mounts a webserver at http://localhost:4000
+
+#可能会有很多问题，这几个参考一下
+1.如果开始新建修改文章出现问题，这样解决：
+$ ram gems use global
+$ gem install bundler(sudo gem install bundler)
+
+2.这个问题困扰好久，
+参考goole：
+大概意思是我的最新版本ruby不支持，运行如下命令：
+rvm install ruby-2.2.0
+gem install bundler
+bundle install
+rake generate
+
+$ rake generate
+## Generating Site with Jekyll
+Configuration file: /Users/lishangkai/octopress/_config.yml
+/Users/lishangkai/.rvm/gems/ruby-2.2.1/gems/posix-spawn-0.3.11/lib/posix_spawn_ext.bundle: [BUG] Segmentation fault at 0x00000000000418
+ruby 2.2.1p85 (2015-02-26 revision 49769) [x86_64-darwin15]
+-- Crash Report log information --------------------------------------------
+See Crash Report log file under the one of following:
+* ~/Library/Logs/CrashReporter
+* /Library/Logs/CrashReporter
+* ~/Library/Logs/DiagnosticReports
+* /Library/Logs/DiagnosticReports
+for more details.
+
+-- Control frame information 
+.........
+.........
+You may have encountered a bug in the Ruby interpreter or extension libraries.
+Bug reports are welcome.
+Don't forget to include the above Crash Report log file.
+For details: http://www.ruby-lang.org/bugreport.html
+
 
 
 
