@@ -4,7 +4,7 @@
   <title><![CDATA[Shangkai Lee's Blog]]></title>
   <link href="http://sky0372lsk.github.io/atom.xml" rel="self"/>
   <link href="http://sky0372lsk.github.io/"/>
-  <updated>2016-01-18T11:00:32+08:00</updated>
+  <updated>2016-01-18T11:24:31+08:00</updated>
   <id>http://sky0372lsk.github.io/</id>
   <author>
     <name><![CDATA[李尚锴]]></name>
@@ -176,34 +176,52 @@
 
 <p>rake preview     # Watches, and mounts a webserver at <a href="http://localhost:4000">http://localhost:4000</a></p>
 
-<h1>可能会有很多问题，这几个参考一下</h1>
+<h1>可能会有很多问题，这几个参考一下。</h1>
 
-<p>1.如果开始新建修改文章出现问题，这样解决：
-$ ram gems use global
-$ gem install bundler(sudo gem install bundler)</p>
+<p>啰嗦一句：一定要有折腾精神，我能说我折腾了好几周才基本会了码。不要忘记Google和stackoverflow</p>
 
-<p>2.这个问题困扰好久，
-参考goole：
-大概意思是我的最新版本ruby不支持，运行如下命令：
-rvm install ruby-2.2.0
-gem install bundler
-bundle install
-rake generate</p>
+<p>1.如果开始新建修改文章出现问题，这样解决：</p>
+
+<p>$ ram gems use global</p>
+
+<p>$ gem install bundler(sudo gem install bundler)</p>
+
+<p>2.这个问题困扰好久</p>
+
+<p>参考goole：</p>
+
+<p>大概意思是我的最新版本ruby不支持，运行如下命令：</p>
+
+<p>rvm install ruby-2.2.0</p>
+
+<p>gem install bundler</p>
+
+<p>bundle install</p>
+
+<p>rake generate</p>
 
 <p>$ rake generate</p>
 
 <h2>Generating Site with Jekyll</h2>
 
-<p>Configuration file: /Users/lishangkai/octopress/_config.yml
-/Users/lishangkai/.rvm/gems/ruby-2.2.1/gems/posix-spawn-0.3.11/lib/posix_spawn_ext.bundle: [BUG] Segmentation fault at 0x00000000000418
-ruby 2.2.1p85 (2015-02-26 revision 49769) [x86_64-darwin15]
-&ndash; Crash Report log information &mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;
-See Crash Report log file under the one of following:
-* ~/Library/Logs/CrashReporter
-* /Library/Logs/CrashReporter
-* ~/Library/Logs/DiagnosticReports
-* /Library/Logs/DiagnosticReports
-for more details.</p>
+<p>Configuration file: /Users/lishangkai/octopress/_config.yml</p>
+
+<p>/Users/lishangkai/.rvm/gems/ruby-2.2.1/gems/posix-spawn-0.3.11/lib/posix_spawn_ext.bundle: [BUG] Segmentation fault at 0x00000000000418</p>
+
+<p>ruby 2.2.1p85 (2015-02-26 revision 49769) [x86_64-darwin15]</p>
+
+<p>&ndash; Crash Report log information &mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;</p>
+
+<p>See Crash Report log file under the one of following:</p>
+
+<ul>
+<li>~/Library/Logs/CrashReporter</li>
+<li>/Library/Logs/CrashReporter</li>
+<li>~/Library/Logs/DiagnosticReports</li>
+<li>/Library/Logs/DiagnosticReports
+for more details.</li>
+</ul>
+
 
 <p>&ndash; Control frame information
 &hellip;&hellip;&hellip;
