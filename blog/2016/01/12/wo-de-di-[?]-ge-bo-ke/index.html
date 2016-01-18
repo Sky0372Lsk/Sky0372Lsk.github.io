@@ -7,7 +7,7 @@
 	<meta name="author" content="李尚锴">
 
 	
-	<meta name="description" content="记录自己的博客之路 2016年1月12日 5:58:20 前言 自己尝试搭建博客有两三天了，因为公司的事情，慢了一些，也走了很多弯路，记录下来，也算一个好的开篇。 效果请移步：http://sky0372lsk.github.io/ 一些弯路 之前在《今日头条》上看了一篇几分钟就搭建好一个博客的， &hellip;">
+	<meta name="description" content="记录自己的博客之路 2016年1月12日 5:58:20 前言 自己尝试搭建博客有两三天了，因为公司的事情，慢了一些，也走了很多弯路，记录下来，也算一个好的开篇。 一些弯路 之前在《今日头条》上看了一篇几分钟就搭建好一个博客的，折腾了好久，也联系了作者，发现很多问题。他的是基于 &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -40,7 +40,7 @@
 	<div class="alignright search">
 		<a class="button"></a>
 		<div class="container">
-			<form action="https://www.google.com/search" method="get">
+			<form action="https://www.baidu.com/search" method="get">
 				<input type="text" name="q" results="0">
 				<input type="hidden" name="q" value="site:sky0372lsk.github.io">
 			</form>
@@ -63,7 +63,7 @@
 		
     
 	</div>
-	<form class="search" action="https://www.google.com/search" method="get">
+	<form class="search" action="https://www.baidu.com/search" method="get">
 		<input class="alignright" type="text" name="q" results="0">
 		<input type="hidden" name="q" value="site:sky0372lsk.github.io">
 	</form>
@@ -82,8 +82,6 @@
 <h1>前言</h1>
 
 <p>自己尝试搭建博客有两三天了，因为公司的事情，慢了一些，也走了很多弯路，记录下来，也算一个好的开篇。</p>
-
-<p>效果请移步：<a href="http://sky0372lsk.github.io/">http://sky0372lsk.github.io/</a></p>
 
 <h1>一些弯路</h1>
 
@@ -109,6 +107,8 @@
 
 <p><a href="http://octopress.org/">http://octopress.org/</a></p>
 
+<p><a href="http://octopress.org/docs/deploying/github/">http://octopress.org/docs/deploying/github/</a></p>
+
 <p>如果英文不好，可以谷歌，如果不会翻墙，这里提供一个免费的软件</p>
 
 <p><a href="https://github.com/getlantern/lantern">https://github.com/getlantern/lantern</a></p>
@@ -122,8 +122,6 @@
 <p>请follow me <a href="https://github.com/Sky0372Lsk">https://github.com/Sky0372Lsk</a></p>
 
 <h1>常用命令</h1>
-
-<p>前三个最常用</p>
 
 <p>rake new_post[&ldquo;article name&rdquo;] 生成博文框架，然后修改生成的文件即可</p>
 
@@ -142,6 +140,43 @@
 <p>rake watch        # Watches source/ and sass/ for changes and regenerates</p>
 
 <p>rake preview     # Watches, and mounts a webserver at <a href="http://localhost:4000">http://localhost:4000</a></p>
+
+<h1>可能会有很多问题，这几个参考一下</h1>
+
+<p>1.如果开始新建修改文章出现问题，这样解决：
+$ ram gems use global
+$ gem install bundler(sudo gem install bundler)</p>
+
+<p>2.这个问题困扰好久，
+参考goole：
+大概意思是我的最新版本ruby不支持，运行如下命令：
+rvm install ruby-2.2.0
+gem install bundler
+bundle install
+rake generate</p>
+
+<p>$ rake generate</p>
+
+<h2>Generating Site with Jekyll</h2>
+
+<p>Configuration file: /Users/lishangkai/octopress/_config.yml
+/Users/lishangkai/.rvm/gems/ruby-2.2.1/gems/posix-spawn-0.3.11/lib/posix_spawn_ext.bundle: [BUG] Segmentation fault at 0x00000000000418
+ruby 2.2.1p85 (2015-02-26 revision 49769) [x86_64-darwin15]
+&ndash; Crash Report log information &mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;
+See Crash Report log file under the one of following:
+* ~/Library/Logs/CrashReporter
+* /Library/Logs/CrashReporter
+* ~/Library/Logs/DiagnosticReports
+* /Library/Logs/DiagnosticReports
+for more details.</p>
+
+<p>&ndash; Control frame information
+&hellip;&hellip;&hellip;
+&hellip;&hellip;&hellip;
+You may have encountered a bug in the Ruby interpreter or extension libraries.
+Bug reports are welcome.
+Don&rsquo;t forget to include the above Crash Report log file.
+For details: <a href="http://www.ruby-lang.org/bugreport.html">http://www.ruby-lang.org/bugreport.html</a></p>
 
 <h1>小总结</h1>
 
