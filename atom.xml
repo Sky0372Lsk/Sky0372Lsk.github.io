@@ -4,7 +4,7 @@
   <title><![CDATA[Shangkai Lee's Blog]]></title>
   <link href="http://sky0372lsk.github.io/atom.xml" rel="self"/>
   <link href="http://sky0372lsk.github.io/"/>
-  <updated>2016-01-18T15:59:24+08:00</updated>
+  <updated>2016-01-18T17:43:51+08:00</updated>
   <id>http://sky0372lsk.github.io/</id>
   <author>
     <name><![CDATA[李尚锴]]></name>
@@ -118,6 +118,8 @@
 
 <h1>前言</h1>
 
+<p><img class="left" src="http://sky0372lsk.github.io/images/2.pic.jpg" width="350" height="890"></p>
+
 <p>自己尝试搭建博客有两三天了，因为公司的事情，慢了一些，也走了很多弯路，记录下来，也算一个好的开篇。</p>
 
 <h1>一些弯路</h1>
@@ -177,6 +179,38 @@
 <p>rake watch        # Watches source/ and sass/ for changes and regenerates</p>
 
 <p>rake preview     # Watches, and mounts a webserver at <a href="http://localhost:4000">http://localhost:4000</a></p>
+
+<h1>图片设置</h1>
+
+<p>1.其他网站引用（<a href="http://octopress.org/docs/plugins/image-tag/%EF%BC%89%EF%BC%9A">http://octopress.org/docs/plugins/image-tag/%EF%BC%89%EF%BC%9A</a></p>
+
+<p>Examples</p>
+
+<p><img src="http://placekitten.com/890/280"></p>
+
+<p><img class="left" src="http://placekitten.com/320/250" title="Place Kitten #2" ></p>
+
+<p><img class="right" src="http://placekitten.com/300/500" width="150" height="250" title="Place Kitten #3" ></p>
+
+<p><img class="right" src="http://placekitten.com/300/500" width="150" height="250" title="Place Kitten #4" alt="An image of a very cute kitten"></p>
+
+<p>2.自己设置：</p>
+
+<p>copy your image in Octopress/source/images.</p>
+
+<p>PS: Octopress(whatever you named it) directory is a repository directory for your blog.</p>
+
+<p>then you can use img tag as</p>
+
+<p><img class="left" src="http://sky0372lsk.github.io/images/terminal.png" width="350" height="350" title="image" alt="images"></p>
+
+<h1>OK！成功！然后，此时，再创建一个新的github的source分支，用于保存写作的md源文件等。</h1>
+
+<p>git add .</p>
+
+<p>git commit -m &ldquo;some changes&rdquo;</p>
+
+<p>git push origin source</p>
 
 <h1>可能会有很多问题，这几个参考一下。</h1>
 
@@ -259,6 +293,8 @@ For details: <a href="http://www.ruby-lang.org/bugreport.html">http://www.ruby-l
 <hr />
 
 <h1>个人信息</h1>
+
+<p><img class="left" src="http://sky0372lsk.github.io/images/3.pic.jpg" width="350" height="890"></p>
 
 <ul>
 <li>李尚锴/男/1992</li>
